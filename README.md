@@ -1,6 +1,6 @@
 # Historias-de-usuario
 
-## Historia 1
+## Historia 3
 
 
 **Prioridad:** Alta
@@ -17,7 +17,7 @@
 
 **Y debe suceder:** La aplicación deberá soportar al menos un 30% más de carga de usuarios y mensajes de forma eficiente.
 
-## Historia 2
+## Historia 4
 
 
 **Prioridad:** Baja
