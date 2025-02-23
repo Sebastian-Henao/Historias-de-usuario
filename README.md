@@ -1,103 +1,103 @@
-***Aplicacion pensada: App de mensajeria, tipo WhatsApp***
+## Aplicacion pensada: App de mensajeria, tipo WhatsApp
 
-***Historia 1***
+## Historia 1
 
-**Prioridad:** Alta
+- **Prioridad:** Alta
 
-**Atributo de calidad:** Confiabilidad 
+- **Atributo de calidad:** Confiabilidad 
 
-**Cuando:** El usuario intente enviar o recibir un mensaje
+- **Cuando:** El usuario intente enviar o recibir un mensaje
 
-**Dado que:** El sistema se encuentra en estado normal
+- **Dado que:** El sistema se encuentra en estado normal
 
-**Yo como:** Usuario del sistema
+- **Yo como:** Usuario del sistema
 
-**Quiero:** Enviar o recibir mensajes sin fallos ni perdida de informacion
+- **Quiero:** Enviar o recibir mensajes sin fallos ni perdida de informacion
 
-**Y debe suceder:** Cuando yo o el otro usuario (quien me envia el mensaje a mi), presionemos el boton de enviar mensaje, debera llegar sin fallos ni perdida de informacion en los proximos 2 segundos (debe haber una conexion a internet)
-
-
-***Historia 2***
-
-**Prioridad:** Media
-
-**Atributo de calidad:** Autenticacion de usuario (login)
-
-**Cuando:** El usuario intente acceder a la aplicacion
-
-**Dado que:** El sistema se encuentra en estado normal
-
-**Yo como:** Usuario del sistema
-
-**Quiero:** Una ventana en la cual se me permita iniciar sesion con usuario y contraseña de forma rapida, facil y segura
-
-**Y debe suceder:** Cuando se ingresen mis credenciales y presione el boton iniciar sesion, el sistema debera permitirme o negarme el acceso, segun corresponda, en maximo 3 segundos (debe haber una conexion a internet)
+- **Y debe suceder:** Cuando yo o el otro usuario (quien me envia el mensaje a mi), presionemos el boton de enviar mensaje, debera llegar sin fallos ni perdida de informacion en los proximos 2 segundos (debe haber una conexion a internet)
 
 
-***Historia 3***
+## Historia 2
+
+- **Prioridad:** Media
+
+- **Atributo de calidad:** Autenticacion de usuario (login)
+
+- **Cuando:** El usuario intente acceder a la aplicacion
+
+- **Dado que:** El sistema se encuentra en estado normal
+
+- **Yo como:** Usuario del sistema
+
+- **Quiero:** Una ventana en la cual se me permita iniciar sesion con usuario y contraseña de forma rapida, facil y segura
+
+- **Y debe suceder:** Cuando se ingresen mis credenciales y presione el boton iniciar sesion, el sistema debera permitirme o negarme el acceso, segun corresponda, en maximo 3 segundos (debe haber una conexion a internet)
 
 
-**Prioridad:** Alta
+## Historia 3
 
-**Atributo de calidad:** Escalabilidad
 
-**Cuando:** La aplicación tenga un incremento en el número de usuarios o mensajes enviados.
+- **Prioridad:** Alta
 
-**Dado que:** El sistema se encuentra en sobrecargado
+- **Atributo de calidad:** Escalabilidad
 
-**Yo como:** Usuario del sistema.
+- **Cuando:** La aplicación tenga un incremento en el número de usuarios o mensajes enviados.
 
-**Quiero:** Que la aplicación funcione sin retrasos ni interrupciones, sin importar cuántos usuarios estén activos o cuántos mensajes se estén enviando simultáneamente.
+- **Dado que:** El sistema se encuentra en sobrecargado
 
-**Y debe suceder:** La aplicación deberá soportar al menos un 30% más de carga de usuarios y mensajes de forma eficiente.
+- **Yo como:** Usuario del sistema.
 
-***Historia 4***
+- **Quiero:** Que la aplicación funcione sin retrasos ni interrupciones, sin importar cuántos usuarios estén activos o cuántos mensajes se estén enviando simultáneamente.
 
-**Prioridad:** Baja
+- **Y debe suceder:** La aplicación deberá soportar al menos un 30% más de carga de usuarios y mensajes de forma eficiente.
 
-**Atributo de calidad:** Creación y gestión de grupos de chat
+## Historia 4
 
-**Cuando:** El usuario quiera crear o gestionar un grupo de chat.
+- **Prioridad:** Baja
 
-**Dado que:** El sistema se encuentra en estado normal.
+- **Atributo de calidad:** Creación y gestión de grupos de chat
 
-**Yo como:** Usuario del sistema.
+- **Cuando:** El usuario quiera crear o gestionar un grupo de chat.
 
-**Quiero:** Crear un grupo de chat donde pueda agregar o eliminar miembros, asignar administradores, cambiar el nombre y la imagen del grupo de forma sencilla.
+- **Dado que:** El sistema se encuentra en estado normal.
 
-**Y debe suceder:** Cuando cree un grupo, este deberá estar disponible en la lista de chats para cada miembro del grupo. Los cambios en el grupo (agregar/eliminar miembros o actualizar información) deberán reflejarse en tiempo real para todos los miembros.
+- **Yo como:** Usuario del sistema.
 
-***Historia 5***
+- **Quiero:** Crear un grupo de chat donde pueda agregar o eliminar miembros, asignar administradores, cambiar el nombre y la imagen del grupo de forma sencilla.
 
-**Prioridad**: Alta.
+- **Y debe suceder:** Cuando cree un grupo, este deberá estar disponible en la lista de chats para cada miembro del grupo. Los cambios en el grupo (agregar/eliminar miembros o actualizar información) deberán reflejarse en tiempo real para todos los miembros.
 
-**Atributo de calidad**: Rendimiento.
+## Historia 5
 
-**Cuando**: El usuario envíe o reciba múltiples mensajes en una conversación activa.
+- **Prioridad**: Alta.
 
-**Dado que**: El sistema se encuentra en estado normal.
+- **Atributo de calidad**: Rendimiento.
 
-**Yo como**: Usuario del sistema.
+- **Cuando**: El usuario envíe o reciba múltiples mensajes en una conversación activa.
 
-**Quiero**: Que los mensajes se envíen y reciban de manera instantánea sin retrasos perceptibles.
+- **Dado que**: El sistema se encuentra en estado normal.
 
-**Y debe suceder**: Que al enviar o recibir un mensaje en una conversación activa, el sistema lo procese y lo muestre en pantalla en menos de 1 segundo, asegurando una experiencia fluida (debe haber una conexión a internet).
+- **Yo como**: Usuario del sistema.
 
-***Historia 6***
+- **Quiero**: Que los mensajes se envíen y reciban de manera instantánea sin retrasos perceptibles.
 
-**Prioridad**: Media.
+- **Y debe suceder**: Que al enviar o recibir un mensaje en una conversación activa, el sistema lo procese y lo muestre en pantalla en menos de 1 segundo, asegurando una experiencia fluida (debe haber una conexión a internet).
 
-**Atributo de calidad**: Búsqueda de mensajes.
+## Historia 6
 
-**Cuando**: El usuario intente buscar un mensaje específico en una conversación.
+- **Prioridad**: Media.
 
-**Dado que**: El sistema se encuentra en estado normal.
+- **Atributo de calidad**: Búsqueda de mensajes.
 
-**Yo como**: Usuario del sistema.
+- **Cuando**: El usuario intente buscar un mensaje específico en una conversación.
 
-**Quiero**: Poder encontrar mensajes antiguos rápidamente mediante una barra de búsqueda.
+- **Dado que**: El sistema se encuentra en estado normal.
 
-**Y debe suceder**: Que al escribir palabras clave en la barra de búsqueda, los resultados relevantes aparezcan en un tiempo máximo de 2 segundos, permitiéndome navegar fácilmente entre los mensajes encontrados.
+- **Yo como**: Usuario del sistema.
+
+- **Quiero**: Poder encontrar mensajes antiguos rápidamente mediante una barra de búsqueda.
+
+- **Y debe suceder**: Que al escribir palabras clave en la barra de búsqueda, los resultados relevantes aparezcan en un tiempo máximo de 2 segundos, permitiéndome navegar fácilmente entre los mensajes encontrados.
 
 ## Historia 7
 - **Prioridad:** Alta  
