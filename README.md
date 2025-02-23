@@ -1,4 +1,4 @@
-## Aplicacion pensada: App de mensajeria, tipo WhatsApp
+# Aplicacion pensada: App de mensajeria, tipo WhatsApp
 
 ## Historia 1
 
@@ -100,6 +100,7 @@
 - **Y debe suceder**: Que al escribir palabras clave en la barra de búsqueda, los resultados relevantes aparezcan en un tiempo máximo de 2 segundos, permitiéndome navegar fácilmente entre los mensajes encontrados.
 
 ## Historia 7
+
 - **Prioridad:** Alta  
 - **Atributo de calidad:** Confidencialidad y protección de datos  
 - **Cuando:** Un usuario inicie sesión o envíe un mensaje  
@@ -116,3 +117,24 @@
 - **Yo como:** Usuario de la aplicación  
 - **Quiero:** Que los mensajes se envíen y entreguen de manera inmediata  
 - **Y debe suceder:** Que el sistema procese y entregue los mensajes en menos de un segundo, incluso en condiciones de red inestables.  
+
+## Historia 11
+
+- **Prioridad:** Media
+- **Atributo de calidad:** Accesibilidad
+- **Cuando:** Un usuario con discapacidades visuales o motoras intente utilizar la aplicación.
+- **Dado que:** El sistema debe ser inclusivo y accesible para todos los usuarios.
+- **Yo como:** Usuario con discapacidad visual o motriz.
+- **Quiero:** Que la aplicación sea compatible con lectores de pantalla y permita comandos de voz o accesos rápidos para enviar y recibir mensajes.
+- **Y debe suceder:** Que los textos de los mensajes, botones y notificaciones sean correctamente leídos por lectores de pantalla, y que existan accesos rápidos o comandos de voz para enviar mensajes sin dificultad.
+
+
+## Historia 12
+
+- **Prioridad:** Alta
+- **Atributo de calidad:** Compartición de archivos
+- **Cuando:** Un usuario intente enviar imágenes, videos o audios a través del chat.
+- **Dado que:** La aplicación debe permitir el intercambio de archivos de forma rápida y eficiente.
+- **Yo como:** Usuario de la aplicación.
+- **Quiero:** Poder enviar y recibir imágenes, videos y audios sin pérdida de calidad y sin largos tiempos de espera.
+- **Y debe suceder:** Que al seleccionar y enviar un archivo multimedia, este se cargue y se envíe en menos de 3 segundos en condiciones de red normales, asegurando una experiencia fluida sin afectar la calidad del archivo.
