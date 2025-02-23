@@ -1,6 +1,6 @@
 ***Aplicacion pensada: App de mensajeria, tipo WhatsApp***
 
-##Historia 1
+***Historia 1***
 
 **Prioridad:** Alta
 
@@ -17,7 +17,7 @@
 **Y debe suceder:** Cuando yo o el otro usuario (quien me envia el mensaje a mi), presionemos el boton de enviar mensaje, debera llegar sin fallos ni perdida de informacion en los proximos 2 segundos (debe haber una conexion a internet)
 
 
-##Historia 2
+***Historia 2***
 
 **Prioridad:** Media
 
@@ -34,7 +34,7 @@
 **Y debe suceder:** Cuando se ingresen mis credenciales y presione el boton iniciar sesion, el sistema debera permitirme o negarme el acceso, segun corresponda, en maximo 3 segundos (debe haber una conexion a internet)
 
 
-## Historia 3
+***Historia 3***
 
 
 **Prioridad:** Alta
@@ -51,8 +51,7 @@
 
 **Y debe suceder:** La aplicación deberá soportar al menos un 30% más de carga de usuarios y mensajes de forma eficiente.
 
-## Historia 4
-
+***Historia 4***
 
 **Prioridad:** Baja
 
@@ -68,7 +67,7 @@
 
 **Y debe suceder:** Cuando cree un grupo, este deberá estar disponible en la lista de chats para cada miembro del grupo. Los cambios en el grupo (agregar/eliminar miembros o actualizar información) deberán reflejarse en tiempo real para todos los miembros.
 
-##Historia 5
+***Historia 5***
 
 **Prioridad**: Alta.
 
@@ -84,7 +83,7 @@
 
 **Y debe suceder**: Que al enviar o recibir un mensaje en una conversación activa, el sistema lo procese y lo muestre en pantalla en menos de 1 segundo, asegurando una experiencia fluida (debe haber una conexión a internet).
 
-##Historia 6
+***Historia 6***
 
 **Prioridad**: Media.
 
