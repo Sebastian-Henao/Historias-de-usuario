@@ -19,6 +19,7 @@
 
 ## Historia 2
 
+
 - **Prioridad:** Media
 
 - **Atributo de calidad:** Autenticacion de usuario (login)
@@ -51,7 +52,9 @@
 
 - **Y debe suceder:** La aplicación deberá soportar al menos un 30% más de carga de usuarios y mensajes de forma eficiente.
 
+
 ## Historia 4
+
 
 - **Prioridad:** Baja
 
@@ -67,7 +70,9 @@
 
 - **Y debe suceder:** Cuando cree un grupo, este deberá estar disponible en la lista de chats para cada miembro del grupo. Los cambios en el grupo (agregar/eliminar miembros o actualizar información) deberán reflejarse en tiempo real para todos los miembros.
 
+
 ## Historia 5
+
 
 - **Prioridad**: Alta.
 
@@ -83,7 +88,9 @@
 
 - **Y debe suceder**: Que al enviar o recibir un mensaje en una conversación activa, el sistema lo procese y lo muestre en pantalla en menos de 1 segundo, asegurando una experiencia fluida (debe haber una conexión a internet).
 
+
 ## Historia 6
+
 
 - **Prioridad**: Media.
 
@@ -99,42 +106,74 @@
 
 - **Y debe suceder**: Que al escribir palabras clave en la barra de búsqueda, los resultados relevantes aparezcan en un tiempo máximo de 2 segundos, permitiéndome navegar fácilmente entre los mensajes encontrados.
 
+
 ## Historia 7
 
+
 - **Prioridad:** Alta  
+
 - **Atributo de calidad:** Confidencialidad y protección de datos  
+
 - **Cuando:** Un usuario inicie sesión o envíe un mensaje  
+
 - **Dado que:** Los datos personales y mensajes deben estar protegidos  
+
 - **Yo como:** Usuario de la aplicación  
+
 - **Quiero:** Que mis conversaciones estén cifradas de extremo a extremo  
+
 - **Y debe suceder:** Que solo el remitente y el destinatario puedan acceder al contenido de los mensajes, evitando que terceros puedan interceptarlos.  
 
+
 ## Historia 8
-- **Prioridad:** Alta  
+
+
+- **Prioridad:** Alta
+
 - **Atributo de calidad:** Rendimiento y disponibilidad  
+
 - **Cuando:** Un usuario envíe un mensaje de texto  
+
 - **Dado que:** La comunicación debe ser rápida y confiable  
+
 - **Yo como:** Usuario de la aplicación  
+
 - **Quiero:** Que los mensajes se envíen y entreguen de manera inmediata  
+
 - **Y debe suceder:** Que el sistema procese y entregue los mensajes en menos de un segundo, incluso en condiciones de red inestables.  
+
 
 ## Historia 11
 
+
 - **Prioridad:** Media
+
 - **Atributo de calidad:** Accesibilidad
+
 - **Cuando:** Un usuario con discapacidades visuales o motoras intente utilizar la aplicación.
+
 - **Dado que:** El sistema debe ser inclusivo y accesible para todos los usuarios.
+
 - **Yo como:** Usuario con discapacidad visual o motriz.
+
 - **Quiero:** Que la aplicación sea compatible con lectores de pantalla y permita comandos de voz o accesos rápidos para enviar y recibir mensajes.
+
 - **Y debe suceder:** Que los textos de los mensajes, botones y notificaciones sean correctamente leídos por lectores de pantalla, y que existan accesos rápidos o comandos de voz para enviar mensajes sin dificultad.
 
 
 ## Historia 12
 
+
 - **Prioridad:** Alta
+
 - **Atributo de calidad:** Compartición de archivos
+
 - **Cuando:** Un usuario intente enviar imágenes, videos o audios a través del chat.
+
 - **Dado que:** La aplicación debe permitir el intercambio de archivos de forma rápida y eficiente.
+
 - **Yo como:** Usuario de la aplicación.
+
 - **Quiero:** Poder enviar y recibir imágenes, videos y audios sin pérdida de calidad y sin largos tiempos de espera.
+
 - **Y debe suceder:** Que al seleccionar y enviar un archivo multimedia, este se cargue y se envíe en menos de 3 segundos en condiciones de red normales, asegurando una experiencia fluida sin afectar la calidad del archivo.
