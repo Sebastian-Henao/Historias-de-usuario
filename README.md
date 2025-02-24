@@ -1,4 +1,4 @@
-## Historia 9
+## Historia 11
 
 - **Prioridad:** Media
 - **Atributo de calidad:** Accesibilidad
@@ -9,7 +9,7 @@
 - **Y debe suceder:** Que los textos de los mensajes, botones y notificaciones sean correctamente leídos por lectores de pantalla, y que existan accesos rápidos o comandos de voz para enviar mensajes sin dificultad.
 
 
-## Historia 10
+## Historia 12
 
 - **Prioridad:** Alta
 - **Atributo de calidad:** Compartición de archivos
